@@ -1,5 +1,6 @@
 package springmvc.Controller;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,6 +27,7 @@ public class ItemsController1 implements Controller {
 		modelAndView.setViewName("/WEN-INF/jsp/query.jsp");
 		return modelAndView;
 	}
+
 	}
 
 
